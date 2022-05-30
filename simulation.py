@@ -73,13 +73,6 @@ def main():
     filtered=np.empty((N,2))
     y = np.zeros(shape=(P, N))
 
-    matrixIndex=0
-
-    pCOVs = []
-    fCOVs = []
-    pMeans = []
-    fMeans = []
-
     noise=np.random.normal(0, 1000, N)
 
     x = np.add(m0, w[0,0])
